@@ -18,3 +18,6 @@
     color: var(--white-color);
     font-size: 25px;
 }
+.blueback{
+    text-shadow: 0 0 20px rgba(0, 43, 184, 0.719)
+}
