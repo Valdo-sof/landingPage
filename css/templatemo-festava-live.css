@@ -213,7 +213,7 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 100px;
 }
 
@@ -506,7 +506,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/mountains-1985027_1920.jpg');
+  background-image: url('../images/about_section.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
@@ -644,7 +644,7 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
+  background-image: url('../images/service.jpg');
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
