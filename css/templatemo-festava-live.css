@@ -13,6 +13,7 @@ https://templatemo.com/tm-583-festava-live
 :root {
   --white-color: #ffffff;
   --primary-color: #F8CB2E;
+  --primary-colorOct: #9b27b0;
   --secondary-color: #2764b0ff;
   --section-bg-color: #f0f8ff;
   --custom-btn-bg-color: rgb(43, 132, 241);
@@ -400,7 +401,7 @@ strong {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--primary-colorOct);
 }
 
 .navbar-toggler {
@@ -639,7 +640,7 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/plans-1867745_1920.jpg');
+  background-image: url('../images/plans_two.jpg');
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
@@ -824,7 +825,7 @@ strong {
 }
 
 .site-footer-top {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-colorOct);
   background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;

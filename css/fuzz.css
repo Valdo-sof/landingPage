@@ -39,8 +39,10 @@
     background-color: white;
 }
 .color-contact{
-    background-image: url('../images/about_section.jpg');
-
+    background-image: url('../images/noche.jpg');
+    background-color: #0c0d1b;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .why-fuzz{
     z-index: 2;
@@ -57,8 +59,8 @@
     background-color: #0c0d1b;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 15%, rgba(0, 0, 0, 1) 22%);
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 15%, rgba(0, 0, 0, 1) 22%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 15%, rgba(0, 0, 0, 1) 18%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 15%, rgba(0, 0, 0, 1) 18%);
 }
 .z-up{
     z-index: 2;
@@ -67,7 +69,7 @@
     padding-top: 18rem
 }
 .message-contact{
-    background-color: #0e112bb7;
+    background-color: #180e2b7a;
     padding: 2rem 1rem;
     height: 100%;
     margin:  0 1rem;
@@ -83,6 +85,6 @@
     text-align: left;
 }
 .whats-cta{
-    width: 24px;
+    width: 20px;
     margin-left: 8px;
 }
