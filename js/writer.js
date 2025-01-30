@@ -22,3 +22,21 @@ function waiter(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 writer()
+
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita la recarga de la página
+
+    let formData = new FormData(this);
+
+    fetch("https://docs.google.com/forms/d/e/1FAIpQLSdDwHKvY94Ra5Pe63fXNf7zg1xIZPyxZ304M7uuf69z1EnlJg/formResponse", {
+        method: "POST",
+        body: formData,
+        mode: "no-cors" // Permite el envío sin esperar una respuesta del servidor
+    }).then(() => {
+        alert("✅ Hemos recibido tu mensaje. Te contactaremos pronto."); // Muestra alerta
+        document.getElementById("contact-form").reset(); // Limpia el formulario
+    }).catch(error => {
+        alert("❌ Algo salió mal. Si el problema persiste, contáctanos por WhatsApp.");
+        console.error("Error:", error);
+    });
+});
