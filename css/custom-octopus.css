@@ -1,0 +1,172 @@
+/* Clients css*/
+.client-logos {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.client-logos h2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #343a40;
+    letter-spacing: 2px;
+}
+
+.client-logos-slider {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 80px;
+    justify-content: center;
+    /* Centra el grid en el contenedor */
+    align-items: center;
+    /* Alinea los elementos verticalmente */
+    text-align: center;
+    max-width: 900px;
+    /* Ajusta según el diseño */
+    margin: auto;
+}
+
+.client-logo img {
+    max-width: 220px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+.client-logo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .client-logos h2 {
+        font-size: 2.2rem;
+    }
+
+    .client-logo img {
+        max-width: 200px;
+    }
+}
+
+
+/* Service css*/
+.service-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-item .icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.item-cyan .icon {
+    background: #17a2b8;
+}
+
+.item-orange .icon {
+    background: #fd7e14;
+}
+
+.item-teal .icon {
+    background: #20c997;
+}
+
+.item-red .icon {
+    background: #dc3545;
+}
+
+.item-indigo .icon {
+    background: #6610f2;
+}
+
+.item-pink .icon {
+    background: #e83e8c;
+}
+
+.item-blue .icon {
+    background: blue;
+}
+
+.item-violet .icon {
+    background: violet
+}
+
+.item-yellow .icon {
+    background: yellowgreen;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service-item p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #0056b3;
+}
+
+/* Tecnology css */
+.swiper-container {
+    position: relative;
+    padding-bottom: 60px;
+    /* Espacio para la paginación */
+    padding-top: 60px;
+    /* Espacio para la paginación */
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100px;
+
+    /* Ajusta el ancho deseado */
+    height: 100px;
+
+    /* Ajusta la altura deseada */
+    object-fit: contain;
+
+    /* Mantiene la proporción del contenido */
+    margin: auto;
+
+    /* Centra la imagen dentro del slide */
+    display: block;
+
+}
+
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    /* Ajusta la posición vertical */
+    bottom: 10px;
+    /* Ajusta la posición vertical */
+    left: 0;
+    right: 0;
+    text-align: center;
+}
