@@ -366,7 +366,11 @@ strong {
   left: 0;
   margin-top: 51px;
 }
-
+@media (max-width:991px) {
+  .sticky-wrapper{
+    margin-top: 0;
+  }
+}
 .sticky-wrapper.is-sticky .navbar {
   background-color: var(--dark-color);
 }
@@ -860,6 +864,7 @@ strong {
 
 .copyright-text {
   font-size: var(--copyright-font-size);
+  text-align: center;
 }
 
 
@@ -945,7 +950,7 @@ strong {
 
   .section-padding {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .navbar {
