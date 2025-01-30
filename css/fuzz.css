@@ -70,6 +70,9 @@
     height: 100%;
     margin:  0 1rem;
 }
+#clientSlider{
+    display: none;
+}
 @media (max-width:992px) {
     .message-contact{
         padding: 2rem 2rem;
@@ -79,6 +82,13 @@
     .grid-contact{
         grid-template-columns: 100%;
     }
+    #clientSlider{
+        display: block;
+    }
+    #clientGrid{
+        display: none;
+    }
+
 }
 .modal-body ul{
     text-align: left;
