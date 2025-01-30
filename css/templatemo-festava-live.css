@@ -993,7 +993,8 @@ strong {
 @media screen and (max-width: 767px) {
   .custom-btn {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 10px 15px;
+    margin-right: 10px !important;
   }
 }
 

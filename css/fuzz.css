@@ -27,11 +27,7 @@
     height: auto;
     color: aqua;
 }
-@media (max-width:992px) {
-    .grid-contact{
-        grid-template-columns: 100%;
-    }
-}
+
 .box-contact{
     padding: 2rem;
     height: auto;
@@ -74,12 +70,25 @@
     height: 100%;
     margin:  0 1rem;
 }
+#clientSlider{
+    display: none;
+}
 @media (max-width:992px) {
     .message-contact{
         padding: 2rem 2rem;
         width: 100%;
         margin:1rem 0;
     }
+    .grid-contact{
+        grid-template-columns: 100%;
+    }
+    #clientSlider{
+        display: block;
+    }
+    #clientGrid{
+        display: none;
+    }
+
 }
 .modal-body ul{
     text-align: left;
@@ -87,4 +96,10 @@
 .whats-cta{
     width: 20px;
     margin-left: 8px;
+}
+@media (max-width:767px) {
+    .hero-section {
+        padding-top: 30px;
+    }
+
 }
