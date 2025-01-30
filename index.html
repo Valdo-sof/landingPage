@@ -8,14 +8,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Fuzz - Studio</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Octopus Solutions</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
 
@@ -26,6 +30,9 @@
     <link href="css/templatemo-festava-live.css" rel="stylesheet">
 
     <link href="css/fuzz.css" rel="stylesheet">
+
+    <link href="css/custom-octopus.css" rel="stylesheet">
+
 
 
     <!--
@@ -87,17 +94,18 @@ https://templatemo.com/tm-583-festava-live
         </nav>
 
 
-        <section class="hero-section" >
+        <section class="hero-section">
             <div class="section-overlay" id="section_1"></div>
 
             <div class="container d-flex justify-content-center align-items-center section-first">
                 <div class="row">
 
-                    <div class="col-12 mt-auto mb-5 text-center" >
+                    <div class="col-12 mt-auto mb-5 text-center">
                         <h3 class="text-white mb-4"> Transformamos tu negocio con soluciones digitales:</h2>
                             <p id="writer"></p>
-                            <a class="btn custom-btn smoothscroll" href="https://wa.me/524273803132">Contáctanos en WhatsApp <img src="./images/whatsapp.png" class="whats-cta"></a>
-    
+                            <a class="btn custom-btn smoothscroll" href="https://wa.me/524273803132">Contáctanos en
+                                WhatsApp <img src="./images/whatsapp.png" class="whats-cta"></a>
+
                     </div>
 
 
@@ -105,9 +113,9 @@ https://templatemo.com/tm-583-festava-live
                 </div>
 
             </div>
-            <div class="row about-section why-fuzz"id="section_2">
+            <div class="row about-section why-fuzz" id="section_2">
                 <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center z-up">
-                    <div class="services-info blueback" >
+                    <div class="services-info blueback">
                         <h3 class="text-white mb-4">¿Por qué elegirnos?</h3>
 
                         <p class="text-white">Ofrecemos soluciones de software diseñadas a medida,
@@ -142,7 +150,7 @@ https://templatemo.com/tm-583-festava-live
         <!-- Client Logos Section -->
         <section id="section_3" class="client-logos section-padding">
             <div class="container">
-                <section id="clientSlider" class="technologies section" >
+                <section id="clientSlider" class="technologies section">
                     <div class="col-12 text-center">
                         <h2 class="text-black mb-5">Clientes</h2>
                     </div>
@@ -150,24 +158,18 @@ https://templatemo.com/tm-583-festava-live
                         <!-- Swiper -->
                         <div class="swiper-container" id="technologies-carousel">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img
-                                        src="images/clientThree.png"
-                                        class="img-fluid" alt="Git"></div>
-                                <div class="swiper-slide"><img
-                                        src="images/clientTwo.png"
-                                        class="img-fluid" alt="Php"></div>
-                                <div class="swiper-slide"><img
-                                        src="images/clientFour.png"
-                                        class="img-fluid" alt="Laravel"></div>
-                                <div class="swiper-slide"><img
-                                        src="images/clientSix.png"
-                                        class="img-fluid" alt="Java"></div>
-                                <div class="swiper-slide"><img
-                                        src="images/clientFive.png"
-                                        class="img-fluid" alt="Spring Boot"></div>
-                                <div class="swiper-slide"><img
-                                        src="images/clientOne.png"
-                                        class="img-fluid" alt="Mongo"></div>
+                                <div class="swiper-slide"><img src="images/clientThree.png" class="img-fluid" alt="Git">
+                                </div>
+                                <div class="swiper-slide"><img src="images/clientTwo.png" class="img-fluid" alt="Php">
+                                </div>
+                                <div class="swiper-slide"><img src="images/clientFour.png" class="img-fluid"
+                                        alt="Laravel"></div>
+                                <div class="swiper-slide"><img src="images/clientSix.png" class="img-fluid" alt="Java">
+                                </div>
+                                <div class="swiper-slide"><img src="images/clientFive.png" class="img-fluid"
+                                        alt="Spring Boot"></div>
+                                <div class="swiper-slide"><img src="images/clientOne.png" class="img-fluid" alt="Mongo">
+                                </div>
                             </div>
                             <!-- Pagination
                             <div class="swiper-pagination"></div> -->
@@ -204,57 +206,6 @@ https://templatemo.com/tm-583-festava-live
                 </div>
             </div>
         </section>
-
-
-        <style>
-            .client-logos {
-                background-color: #f8f9fa;
-                padding: 50px 0;
-            }
-
-            .client-logos h2 {
-                font-size: 2.8rem;
-                font-weight: 400;
-                color: #343a40;
-                letter-spacing: 2px;
-            }
-
-            .client-logos-slider {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 80px;
-                justify-content: center;
-                /* Centra el grid en el contenedor */
-                align-items: center;
-                /* Alinea los elementos verticalmente */
-                text-align: center;
-                max-width: 900px;
-                /* Ajusta según el diseño */
-                margin: auto;
-            }
-
-            .client-logo img {
-                max-width: 220px;
-                height: auto;
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-                border-radius: 10px;
-            }
-
-            .client-logo img:hover {
-                transform: scale(1.1);
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            }
-
-            @media (max-width: 768px) {
-                .client-logos h2 {
-                    font-size: 2.2rem;
-                }
-
-                .client-logo img {
-                    max-width: 200px;
-                }
-            }
-        </style>
 
         <section class="schedule-section section-padding" id="section_4">
             <div class="container">
@@ -797,94 +748,6 @@ https://templatemo.com/tm-583-festava-live
                     </div>
         </section>
 
-        <!-- Custom CSS -->
-        <style>
-            .service-item {
-                background: #fff;
-                padding: 30px;
-                border-radius: 8px;
-                text-align: center;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-            }
-
-            .service-item:hover {
-                transform: translateY(-10px);
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-            }
-
-            .service-item .icon {
-                font-size: 2.5rem;
-                margin-bottom: 15px;
-                color: #fff;
-                padding: 15px;
-                border-radius: 50%;
-                display: inline-block;
-            }
-
-            .item-cyan .icon {
-                background: #17a2b8;
-            }
-
-            .item-orange .icon {
-                background: #fd7e14;
-            }
-
-            .item-teal .icon {
-                background: #20c997;
-            }
-
-            .item-red .icon {
-                background: #dc3545;
-            }
-
-            .item-indigo .icon {
-                background: #6610f2;
-            }
-
-            .item-pink .icon {
-                background: #e83e8c;
-            }
-
-            .item-blue .icon {
-                background: blue;
-            }
-
-            .item-violet .icon {
-                background: violet
-            }
-
-            .item-yellow .icon {
-                background: yellowgreen;
-            }
-
-            .service-item h3 {
-                font-size: 1.5rem;
-                margin-bottom: 15px;
-                color: #333;
-            }
-
-            .service-item p {
-                font-size: 0.9rem;
-                color: #555;
-                margin-bottom: 20px;
-            }
-
-            .read-more {
-                font-size: 0.9rem;
-                font-weight: 600;
-                color: #007bff;
-                text-decoration: none;
-                transition: color 0.3s ease;
-            }
-
-            .read-more:hover {
-                color: #0056b3;
-            }
-        </style>
-
-
-
         <section class="pricing-section section-padding section-bg" id="section_5">
             <div class="container">
                 <div class="row">
@@ -950,90 +813,6 @@ https://templatemo.com/tm-583-festava-live
             </div>
         </section>
 
-
-        <!-- Swiper JS -->
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script>
-            var swiper = new Swiper('#technologies-carousel', {
-                loop: true,
-                speed: 500,
-                autoplay: {
-                    delay: 2000
-                },
-                slidesPerView: 'auto',
-                spaceBetween: 40,
-                pagination: {
-                    el: '#technologies-carousel .swiper-pagination',
-                    clickable: true
-                },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 2,       // Muestra 2 elementos por vista
-                        spaceBetween: 20        // Espacio entre los elementos de 20px
-                    },
-                    480: {
-                        slidesPerView: 3,       // Muestra 3 elementos por vista
-                        spaceBetween: 30        // Espacio entre los elementos de 30px
-                    },
-                    640: {
-                        slidesPerView: 4,       // Muestra 4 elementos por vista
-                        spaceBetween: 40        // Espacio entre los elementos de 40px
-                    },
-                    992: {
-                        slidesPerView: 5,       // Muestra 5 elementos por vista (ajustado)
-                        spaceBetween: 60        // Espacio entre los elementos de 60px
-                    }
-                }
-
-            });
-        </script>
-
-        <!-- Swiper CSS -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-        <!-- Custom CSS -->
-        <style>
-            .swiper-container {
-                position: relative;
-                padding-bottom: 60px;
-                /* Espacio para la paginación */
-                padding-top: 60px;
-                /* Espacio para la paginación */
-                overflow: hidden;
-            }
-
-            .swiper-slide img {
-                width: 100px;
-
-                /* Ajusta el ancho deseado */
-                height: 100px;
-
-                /* Ajusta la altura deseada */
-                object-fit: contain;
-
-                /* Mantiene la proporción del contenido */
-                margin: auto;
-
-                /* Centra la imagen dentro del slide */
-                display: block;
-
-            }
-
-
-            .swiper-pagination {
-                position: absolute;
-                bottom: 10px;
-                /* Ajusta la posición vertical */
-                bottom: 10px;
-                /* Ajusta la posición vertical */
-                left: 0;
-                right: 0;
-                text-align: center;
-            }
-        </style>
-
-
-
         <section class="contact-section section-padding color-contact" id="section_6">
             <div class="container ">
                 <div class="col-lg-8 col-12 grid-contact">
@@ -1064,20 +843,20 @@ https://templatemo.com/tm-583-festava-live
                                             <input type="text" name="entry.1577087391" id="entry.1577087391"
                                                 class="form-control" placeholder="Nombre completo" required>
                                         </div>
-                            
+
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <input type="email" name="entry.1192244854" id="entry.1192244854"
                                                 pattern="[^ @]*@[^ @]*" class="form-control"
                                                 placeholder="Correo electrónico" required>
                                         </div>
                                     </div>
-                            
+
                                     <input type="text" name="entry.739652770" id="entry.739652770" class="form-control"
                                         placeholder="Compañía" autocomplete="off" required>
-                            
+
                                     <textarea name="entry.795626634" rows="3" class="form-control" id="entry.795626634"
                                         placeholder="Mensaje" autocomplete="off" required></textarea>
-                            
+
                                     <div class="col-lg-4 col-md-10 col-8 mx-auto">
                                         <button type="submit" class="form-control">Enviar</button>
                                     </div>
@@ -1197,7 +976,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-4 col-12 mt-2">
-                        <p class="copyright-text">Copyright © 2026 Fuzz Studio</p>
+                        <p class="copyright-text">Copyright © 2026 Octopus Solutions</p>
                     </div>
 
                     <div class="col-lg-4 col-12 mt-lg-2">
@@ -1214,14 +993,14 @@ https://templatemo.com/tm-583-festava-live
                         <h5 class="site-footer-title mb-3">¿Tiene alguna pregunta?</h5>
 
                         <p class="text-white d-flex mb-1">
-                            <a href="tel: 090-080-0760" class="site-footer-link">
-                                090-080-0760
+                            <a href="tel: 427-380-3132" class="site-footer-link">
+                                427-380-3132
                             </a>
                         </p>
 
                         <p class="text-white d-flex">
                             <a href="mailto:hello@company.com" class="site-footer-link">
-                                fuzzstudio@company.com
+                                octopussolutions@company.com
                             </a>
                         </p>
                     </div>
@@ -1237,14 +1016,18 @@ T e m p l a t e M o
 -->
 
     <!-- JAVASCRIPT FILES -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/writer.js"></script>
+    <script src="js/octopus-custom.js"></script>
     <!-- Bootstrap Bundle JS (incluye Popper.js) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
