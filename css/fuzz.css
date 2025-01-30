@@ -101,5 +101,17 @@
     .hero-section {
         padding-top: 30px;
     }
-
+    .site-footer-top{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .site-footer-bottom{
+        margin-top: 30px;
+    }
+    .no_dis_mov{
+        display: none;
+    }
+}
+video::-webkit-media-controls {
+    display: none !important;
 }
