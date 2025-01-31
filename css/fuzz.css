@@ -115,12 +115,15 @@
     width: 20px;
     margin-left: 8px;
 }
+
 .footercontact p {
     margin: 0;
 }
+
 .footercontact {
     margin-top: 0;
 }
+
 @media (max-width:767px) {
     .hero-section {
         padding-top: 30px;
@@ -173,6 +176,32 @@ video::-webkit-media-controls {
 .tcap li:nth-child(2) {
     text-align: end;
 }
-.footerbox{
+
+.footerbox {
     justify-content: space-between;
+}
+
+.floating-whats { 
+    background-color: rgb(42, 168, 25);
+    font-size: 2rem;
+    padding: 1.6rem; 
+    border-radius: 50%; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    opacity: 0;
+    z-index: 5;
+    -webkit-box-shadow: 3px 2px 20px 0px rgba(1, 66, 5, 1);
+    -moz-box-shadow: 3px 2px 20px 0px rgba(1, 66, 5, 1);
+    box-shadow: 3px 2px 20px 0px rgba(1, 66, 5, 1);
+}
+
+.visible {
+    opacity: 1;
 }
