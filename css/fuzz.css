@@ -115,7 +115,12 @@
     width: 20px;
     margin-left: 8px;
 }
-
+.footercontact p {
+    margin: 0;
+}
+.footercontact {
+    margin-top: 0;
+}
 @media (max-width:767px) {
     .hero-section {
         padding-top: 30px;
@@ -135,15 +140,14 @@
     }
 
     .footercontact {
+        margin-top: 10px;
         padding-top: 12px;
         margin-bottom: 20px;
         border-top-style: solid;
         border-top-color: var(--primary-colorOct);
     }
 
-    .footercontact p {
-        margin: 0;
-    }
+
 
     .footerbox {
         margin: 0 18px;
