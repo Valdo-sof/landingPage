@@ -40,3 +40,12 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         console.error("Error:", error);
     });
 });
+
+document.addEventListener("scroll", function() {
+    let icon = document.getElementById("floatingIcon");
+    if (window.scrollY > 450) { // Cambia el 100 si quieres que aparezca antes o después
+        icon.classList.add("visible");
+    } else {
+        icon.classList.remove("visible");
+    }
+});
