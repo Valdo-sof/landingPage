@@ -844,7 +844,7 @@ strong {
 }
 
 .site-footer-title {
-  color: var(--primary-color);
+  color: var(--primary-colorOct);
 }
 
 .site-footer-link,
