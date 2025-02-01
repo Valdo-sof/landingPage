@@ -1,6 +1,6 @@
 /* Clients css*/
 .client-logos {
-    background-color: #f8f9fa;
+    background-color: var(--section-bg-color);
     padding: 50px 0;
 }
 
