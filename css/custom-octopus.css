@@ -5,10 +5,7 @@
 }
 
 .client-logos h2 {
-    font-size: 2.8rem;
-    font-weight: 400;
-    color: #343a40;
-    letter-spacing: 2px;
+   
 }
 
 .client-logos-slider {
@@ -172,4 +169,9 @@
     left: 0;
     right: 0;
     text-align: center;
+}
+
+ /* About*/
+.text-justify {
+    text-align: justify;
 }
