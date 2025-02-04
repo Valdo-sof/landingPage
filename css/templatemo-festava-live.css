@@ -341,8 +341,8 @@ strong {
   top: 0;
   left: 0;
   object-fit: cover;
-  width: 100%;
-  min-height: 70%;
+width: auto;
+  min-height: 100%;
 }
 
 
@@ -645,6 +645,8 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   background-image: url('../images/plans_two.jpg');
+  height: 100%;
+  background-attachment: fixed;
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
