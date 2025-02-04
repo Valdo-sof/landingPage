@@ -1,0 +1,16 @@
+.front-div {
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.1s linear;
+    transform: translateY(0);
+    transition: transform 0.1s linear;
+}
+.parallax-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrar el video */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ajusta el tamaño sin deformar */
+  }
