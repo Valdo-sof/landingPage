@@ -1,6 +1,5 @@
 window.addEventListener("scroll", function () {
     let scrollY = window.scrollY;
- console.log(scrollY)
     // Ajusta el movimiento del video (lento)
     // Ajusta el movimiento de los divs (rápido)
     document.querySelector(".front-div1").style.transform = `translateY(${scrollY * -0.7}px)`;
