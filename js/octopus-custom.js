@@ -34,14 +34,11 @@ var swiper = new Swiper('#technologies-carousel', {
 });
 
 function isSafariMobile() {
-    console.log("HOLA")
     let ua = navigator.userAgent;
-    console.log(ua)
     return  /Safari/.test(ua) && !/Chrome/.test(ua);
 }
 console.log(isSafariMobile())
 if (isSafariMobile()) {
-    console.log("Aqui vamos")
     document.getElementById("videoSource").src = "video/Videomp4.mp4";
     document.getElementById("videoPlayer").load(); // Recargar el video con la nueva fuente
 }
