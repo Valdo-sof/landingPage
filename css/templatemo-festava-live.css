@@ -644,12 +644,10 @@ width: auto;
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/plans_two.jpg');
-  height: 100%;
+  background-image: url('../images/noche.jpg');
   background-attachment: fixed;
   background-color: #242424;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
