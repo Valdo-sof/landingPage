@@ -28,7 +28,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
     let formData = new FormData(this);
 
-    fetch("https://docs.google.com/forms/d/e/1FAIpQLSdDwHKvY94Ra5Pe63fXNf7zg1xIZPyxZ304M7uuf69z1EnlJg/formResponse", {
+    fetch("https://formsubmit.co/albert@oktopusolutions.com", {
         method: "POST",
         body: formData,
         mode: "no-cors" // Permite el envío sin esperar una respuesta del servidor
