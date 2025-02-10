@@ -33,7 +33,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     const toErrB = bootstrap.Toast.getOrCreateInstance(toErr)
     let formData = new FormData(event.target);
     toloadB.show()
-    fetch("https://formspree.io/f/xkgozyvy", {
+    fetch("https://formspree.io/f/xkgovnjy", {
         method: "POST",
         body: formData,
         headers: {
