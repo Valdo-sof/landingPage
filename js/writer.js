@@ -68,3 +68,23 @@ document.addEventListener("scroll", function () {
         icon.classList.remove("visible");
     }
 });
+document.addEventListener('DOMContentLoaded', () => {
+    // Esperamos un tiempo o un evento específico para insertar los <source>
+    // Por ejemplo, al hacer scroll o unos segundos después de que cargue la página:
+    setTimeout(() => {
+      const video = document.getElementById('videoPlayer');
+      const sourceWebm = document.createElement('source');
+      sourceWebm.src = "video/Video.webm";
+      sourceWebm.type = "video/webm";
+  
+      const sourceMp4 = document.createElement('source');
+      sourceMp4.src = "video/Videomp4.mp4";
+      sourceMp4.type = "video/mp4";
+  
+      video.appendChild(sourceWebm);
+      video.appendChild(sourceMp4);
+  
+      // Opcional: reproducir automáticamente
+      video.play();
+    }, 3000);
+  });
