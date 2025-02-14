@@ -33,12 +33,3 @@ var swiper = new Swiper('#technologies-carousel', {
 
 });
 
-function isSafariMobile() {
-    let ua = navigator.userAgent;
-    return  /Safari/.test(ua) && !/Chrome/.test(ua);
-}
-console.log(isSafariMobile())
-if (isSafariMobile()) {
-    document.getElementById("videoSource").src = "video/Videomp4.mp4";
-    document.getElementById("videoPlayer").load(); // Recargar el video con la nueva fuente
-}
