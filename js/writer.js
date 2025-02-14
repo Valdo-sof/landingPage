@@ -86,5 +86,5 @@ document.addEventListener('DOMContentLoaded', () => {
   
       // Opcional: reproducir automáticamente
       video.play();
-    }, 3000);
+    }, 2500);
   });
