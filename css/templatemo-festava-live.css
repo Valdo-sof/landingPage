@@ -21,7 +21,7 @@ https://templatemo.com/tm-583-festava-live
   --custom-btn-bg-color: #9b27b0;
   --custom-btn-bg-hover-color: #9b27b0;
   --dark-color: #000000;
-  --p-color: #717275;
+  --p-color: #c7c7c7;
   --border-color: #7fffd4;
   --link-hover-color: #2764b0ff;
 
@@ -796,7 +796,7 @@ width: auto;
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  color: var(--p-color);
+  color: var(--dark-color);
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
